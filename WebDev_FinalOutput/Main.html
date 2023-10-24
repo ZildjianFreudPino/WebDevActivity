@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="Rectangle.css">
+</head>
+
+<body>
+    <div>
+        <a id="Circle" href="circle.html">Circle</a>
+       
+        <div id="Rectangle">
+            <button id="Modal-Rect">Calculate Area</button>
+            <div id="Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Rectangle</h2>
+                    <div>
+                        <label for="length">Length:</label>
+                        <input type="number" id="length">
+                    </div>
+                    <div>
+                        <label for="width">Width:</label>
+                        <input type="number" id="width">
+                    </div>
+                    <button id="calculate">Calculate</button>
+                    <div id="result">Area: <span id="area">0</span></div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="openSquare()" id="box">Square</button>
+        <div id="modal">
+            <div class="square">
+                <button onclick="exitSquare()" id="exit">X</button>
+                <div id="center">
+                    <div id="length">
+                        <h1>Square Calculator</h1>
+                        <label for="Sidelength">Enter Side Length of Square</label><br>
+                        <input type="number" id="Sidelength"><br>
+                        <button onclick="calculateSquare()">Calculate Area</button>
+                    </div>
+                    <div id="area">
+                        <p>Area: <span id="Area"></span></p>
+    
+                        <label for="Side_A">Enter Side A</label><br>
+                        <input type="number" id="Side_A"><br>
+    
+                        <label for="Side_B">Enter Side B</label><br>
+                        <input type="number" id="Side_B"><br>
+    
+                        <label for="Side_C">Enter Side C</label><br>
+                        <input type="number" id="Side_C"><br>
+                    </div>
+                    <div>
+                        <button onclick="calculateSquarePerimeter()">Calculate Perimeter</button>
+                        <p>Perimeter: <span id="Perimeter"></span></p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+</body>
+<script src="Rectangle.js"></script>
+

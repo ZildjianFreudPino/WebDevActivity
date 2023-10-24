@@ -1,0 +1,97 @@
+
+body {
+    background-image: url("https://wallpapers.com/images/hd/pixel-background-s5oo52exuz0u5108.jpg");
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#c{
+    text-align: center;
+}
+#box{
+    position: absolute;
+    left: 35%;
+    top: 100px;
+    width: 350px;
+    justify-content: center;
+    margin-inline: 1.5rem;
+    background-color: hsla(198, 81%, 65%, 0);
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 2.5rem 1rem;
+    color: white;
+    border-radius: 1rem;
+    backdrop-filter: blur(16px);
+}
+
+#s {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 89px;
+    right: 60px;
+    margin-inline-start:85px;
+    text-align: center;
+    padding: 10px 107px;
+    border-radius: 4rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+#radius {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#modal{
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(16px);
+    color: rgb(255, 0, 0);
+    border: 0.1px solid rgb(6, 47, 2);
+    border-radius: 1rem;
+    backdrop-filter: blur(16px);
+}
+#backdrop{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+#modal-content{
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+    position: relative;
+    margin: auto;
+    margin-top: 20%;
+    width: 25%;
+    height: 160px;   
+    border-color: chocolate;
+    background-color: #05430280;
+    border-style: ridge;
+    border-width: 10px;
+}
+#close{
+    position: fixed;
+    color: #fff;
+    right: 38%;
+    background: transparent;
+}
+#main{
+    text-decoration: none;
+    color: #d0f500;
+    font-size: 50px;
+}
