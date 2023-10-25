@@ -1,0 +1,31 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Square</title>
+    <link rel="stylesheet" href="square.css">
+    <style>
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Square Calc</h1>
+    <label for="Sidelength">Enter SideLength of Square</label><br>
+    <input type="number" id="Sidelength"><br>
+    <button onclick="calculateSquare()">Calculate</button>
+    <input type="number" id="Side_A">
+    <input type="number" id="Side_B">
+    <input type="number" id="Side_C">
+    <p>Area: <span id="Area"></span></p>
+    <p>Perimeter: <span id="Perimeter"></span></p>
+</body>
+<script>
+    function calculateSquare(){
+        const Sidelength = parseFloat(document.getElementById("Sidelength").value);
+        const Area = Sidelength * Sidelength;
+        document.getElementById("Area").textContent = Area;
+        document.getElementById("Perimeter").textContent = Perimeter;
+    }
+</script>
+</html>
