@@ -12,8 +12,8 @@ body {
     -webkit-border-radius: 130px;
     border-radius: 130px;
     position: fixed;
-    margin-top: 300px;
-    margin-left: 180px;
+    margin-top: 210px;
+    margin-left: 120px;
     text-align: center;
     text-decoration: none;
     color: transparent;
@@ -58,7 +58,7 @@ body {
     position: relative;
     border-radius: 1rem;
     backdrop-filter: blur(16px);
-    border:1px solid black ;
+    border:1px solid black ; 
     
 }
 
@@ -78,6 +78,7 @@ body {
     background-color: #0a0a23;
     color: transparent;
     border: none;
+    z-index: -1;
 }
 #length{
 margin-left: 9%;
@@ -123,4 +124,5 @@ height: 230px;
     position: fixed;
     margin-top: 16%;
     margin-left: 42%;
+    z-index: -1;
 }
